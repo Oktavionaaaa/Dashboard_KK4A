@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingHorizontal="20dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/masjid_salam"
+        android:layout_width="297dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="680dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Hallo,\I'm Oktaviona!"
+        android:textColor="@color/black"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="2dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="823dp"
+        android:layout_height="156dp"
+        android:src="@drawable/whatsapp_image_2021_03_31_at_16_15_40"
+        tools:layout_editor_absoluteX="-226dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="187dp"
+        android:layout_height="251dp"
+        android:src="@drawable/whatsapp_image_2021_03_31_at_16_15_40__2_"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="186dp"
+        android:layout_height="253dp"
+        android:src="@drawable/whatsapp_image_2021_03_31_at_16_15_40__1_"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="200dp"
+        android:layout_height="206dp"
+        android:src="@drawable/whatsapp_image_2021_03_31_at_16_15_40__3_"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="219dp"
+        android:layout_height="206dp"
+        android:src="@drawable/whatsapp_image_2021_03_31_at_16_15_40__4_"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
